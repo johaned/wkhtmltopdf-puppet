@@ -8,4 +8,5 @@ description 'puppet module to wkhtmltopdf'
 project_page 'UNKNOWN'
 
 ## Add dependencies, if any:
-# dependency 'username/name', '>= 1.2.0'
+dependency   'puppetlabs/stdlib', '>= 2.2.1'
+dependency 'example42/puppi', '>=2.0.0'
