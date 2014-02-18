@@ -19,7 +19,8 @@
 #
 # Copyright 2014 Johan Tique.
 #
-class wkhtmltopdf {
-
+class wkhtmltopdf inherits wkhtmltopdf::params{
+  include wkhtmltopdf::install
+  
 
 }
